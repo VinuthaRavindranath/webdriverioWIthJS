@@ -1,0 +1,33 @@
+{
+  "name": "commerceos",
+  "version": "1.0.0",
+  "description": "webdriverio framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "env=staging node node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^5.16.11",
+    "@wdio/cli": "^5.16.13",
+    "@wdio/devtools-service": "^5.16.10",
+    "@wdio/jasmine-framework": "^5.16.13",
+    "@wdio/local-runner": "^5.16.13",
+    "@wdio/mocha-framework": "^5.16.13",
+    "@wdio/spec-reporter": "^5.16.11",
+    "@wdio/sync": "^5.16.14",
+    "chromedriver": "^78.0.1",
+    "jasmine": "^3.5.0",
+    "jasmine-expect": "^4.0.3",
+    "prettier": "1.19.1",
+    "selenium-standalone": "^6.17.0",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-chromedriver-service": "^5.0.2",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "webdriverio": "^5.16.13"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}
